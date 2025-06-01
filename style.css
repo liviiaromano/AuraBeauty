@@ -1,0 +1,191 @@
+body{
+    background-color: #f4f4f4
+}
+nav .menu{   /* para esconder as opcoes do menu */
+    display:none; 
+}
+nav:hover .menu{  /*para quando a gente clicar, aparecer as opcoes de menu */
+    display: block;
+}
+a{
+    text-decoration: none; /*tira _ */
+}
+li{
+    list-style: none; /*tira a bolinha */
+}
+header{
+    background-color: #f395c1;
+}
+*{                 /*simulando o reset css*/
+    margin: 0;
+    padding: 0;
+}
+nav{      /*bordas do menu*/
+    padding: 20px 10px; 
+}
+nav a{    /*cor da escrita do menu*/
+    color:#020000;
+    font-size: 18px;
+}
+.content{
+    padding: 10px;  /*bordas do div do conten q é a parte do sobre/sobre nós*/
+}
+h2{
+    color: #4d4d4d;
+    padding: 20px 0;
+}
+.texto p{  /*pra poder editar o texto dentro da parte sobre/sobrenos*/
+    text-align: justify;
+    line-height: 20px; /*altura entre as linhas*/
+    padding: 20px 0;
+}
+.cta-btn{
+    background-color: #4d4d4d;
+    padding: 10px 20px;
+    border-radius: 10px; 
+    display: inline-block;
+}
+.cta-btn a{
+    color: #fff;
+}
+.missao,
+.visao,
+.diferencial{
+    background-color: #c0b4b4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+#produtos{
+    background-color: #c0b4b4;
+}
+#produtos h2{
+    color: #fff;
+}
+#produtos .item{
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    font-size: 14px;
+}
+#produtos img{
+    border-radius: 50%;
+}
+#profissionais .item{
+    background-color: #c0b4b4;
+    padding: 20px 0; 
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#profissionais img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#contato label{
+    width: 100%;
+    display: block;
+}
+#contato input{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+footer{ 
+    background-color: #f395c1;
+    padding: 50px 0;
+    font-size: 20px;
+    color: #fff;
+}
+#contato h2{
+    color: #fff;
+}
+.nav .fa-bars{
+    float: right;
+}
+#servicos i{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 20px;
+}
+#servicos{
+    padding: 40px 0;
+}
+footer h2{
+    color: #fff;
+    padding: 20px 0;
+}
+.menu-desktop{
+    display: none;
+}
+@media (min-width:680px){            /*cai na prova*/
+    .menu-mobile{
+        display: none;
+    }
+    .menu-desktop{
+        display: block;
+        color: #fff;
+    }
+    .menu-open li{
+        display: inline;
+        padding: 0 20px;
+    }
+    .menu-open{
+        display: inline;
+    }
+    .item{
+        width: 29%!important;
+        padding: 1%;
+        margin: 1%;
+        display: inline-block;
+        vertical-align: top;
+    }
+} 
+.chat{                                    /*deixa ele fixo na lateral direito*/
+    position: fixed;
+    z-index: 999;
+    bottom: 30px;
+    right: 20px;
+    background-color: #075e54;
+    width: 165px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.chat a{
+    color: #fff;
+}
+.chat i{
+    font-size: 40px;
+}
+.chat span{
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+}
+.slider{
+    height: 700px;
+    background: url(img/background2.png)
+    50% -95px / cover no-repeat fixed;
+}
+.slider2{
+    height: 700px;
+    background: url(img/background.png)
+    50% -95px / cover no-repeat fixed;
+}
+
+
+#depoimentos .item{
+    background-color: #c0b4b4;
+    padding: 20px 0; 
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#depoimentos img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
